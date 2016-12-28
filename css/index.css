@@ -13,18 +13,18 @@ header nav {
 	text-align: right;
 	display:inline-block;
 	position: absolute;
-
 	padding: 0px;
-	width: 85%;
+	width: 91%;
 }
 header li {
 	display:inline-block;
 	margin-bottom: 0px;
 	margin-top: 0px;
-	font: 25px;
+	font-size: 20px;
 	margin-right: 30px;
 	padding-bottom: 190px;
 	text-align: right;
+
 }
 header ul {
 	list-style: none;
@@ -41,8 +41,10 @@ header ul {
 h1 {
 	margin-bottom: 0px;
 	margin-top:0px;
-	font-size: 25px;
+	font-size: 20px;
 	display: inline-block;
+	font-weight: bold;
+
 }
 main{
 	margin-left:10px : 
