@@ -9,6 +9,13 @@ header{
 	position: fixed;
 	margin-bottom: 0px;
 }
+h1 {
+	margin-bottom: 0px;
+	margin-top:0px;
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+}
 header nav {
 	text-align: right;
 	display:inline-block;
@@ -16,64 +23,110 @@ header nav {
 	padding: 0px;
 	width: 91%;
 }
+header ul {
+	list-style: none;
+	color: purple;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+	right: 10px;
+	display: inline-block;
+	padding-bottom: 50px;
+	padding-left: 0;	
+}
 header li {
 	display:inline-block;
 	margin-bottom: 0px;
 	margin-top: 0px;
 	font-size: 20px;
 	margin-right: 30px;
-	padding-bottom: 190px;
-	text-align: right;
-
 }
-header ul {
-	list-style: none;
-	color: purple;
-	margin-top: 0px;
-	right: 10px;
-	text-align: right;
-	margin-bottom: 0px;
-	display: inline-block;
-	text-align: right;
-	padding-bottom: 50px;
-	padding-left: 0;	
+main {
+	margin-left:30px;
 }
-h1 {
-	margin-bottom: 0px;
-	margin-top:0px;
-	font-size: 20px;
-	display: inline-block;
-	font-weight: bold;
-
-}
-main{
-	margin-left:10px : 
-}	
-main .pagination {
-	margin-left: 10px;
-}
-main li {
-	color: blue;
-}
-main form {
-	margin-left: 10px;
+form {
+	margin-left: 40px;
 	padding-top: 90px;
-	padding-bottom: 30px;
-}
-.pagination a {
-	border: 1px solid gray;
-	border-radius: 10%;
-	margin-left: 0px;
+	padding-bottom: 20px;
+	width: 100%;
 	margin-right: 0px;
+}	
+.pagination {
+	margin-left: 42px;
+	margin-bottom:5px;
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid darkgray;
+	border-radius: 3%;
+	padding: 8px 15px;
+	font-size:16 px;
 }
-.pagination span {
-	border: 1px solid gray;
-	margin: 0px;
+label {
+ 	display: inline-block;
 }
-.listing-date,.listing-location {
-	color: gray;
-	margin: 10px;
+input#search-field {
+ 	border: 1px solid darkgray;
+ 	padding: 0 5px 0 8px;
+ 	width: 600px;
+ 	height: 35px;
+  	font-size: 14px;
 }
-
-
-
+img {
+  	background-color: white;
+  	width: 26px;
+  	height: 26px;
+}
+ button.mag-glass {
+ 	background-color:white;
+ 	vertical-align: bottom;
+}
+a {
+	padding-left: 8px;
+	padding-right:8px;
+	margin:0px;
+	color: black;
+	font-size: 15px;
+}
+span{
+	color: black;
+	border-left: 1px solid darkgray;
+	border-right: 1px solid darkgray;
+	font-size: 14px;
+	padding: 5px;
+}
+.pagination a
+ {
+  	margin-bottom: 30px;
+}
+.pagination {
+	border: 1px solid darkgray;
+	border-radius: 5%;
+	width:19.5%;
+	height: 30%;
+	padding-bottom: 5px;
+	font-size: 12px;
+	padding-left: 8px;
+	padding-right: 8px;
+	}
+.listings {
+	list-style: none;                                                                                                                                                          
+	padding-left: 0px;
+	margin-bottom: 5px; 
+}
+ul.listings {
+	margin-left: 30px;
+	text-decoration: none;	
+}
+ .listing {
+	color: blue;
+	font-weight: bold;
+}
+.listing-date, .listing-location {
+	color: darkgray;
+	font-weight: normal;
+	border-left: none;
+	border-right:none;
+	font-size: 16px;
+}
+li {
+	padding: 10px;
+}
