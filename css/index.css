@@ -1,19 +1,10 @@
-* {
+*{
 	box-sizing: border-box;
 }
-
 body {
 	margin: 0;
 	font-size: 16px;
-
-}
-header{
-	background-color: lightgray;
-	padding:10px;
-	width: 100%;
-	height:40px;
-	position: fixed;
-	margin-bottom: 0px;
+	font-family: "Roberto", sans-serif;
 }
 h1 {
 	margin-bottom: 0px;
@@ -22,12 +13,13 @@ h1 {
 	font-weight: bold;
 	display: inline-block;
 }
-header nav {
-	text-align: right;
+header li {
 	display:inline-block;
-	position: absolute;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 20px;
+	margin-right: 10px;
 	padding: 0px;
-	width: 89%;
 }
 header ul {
 	list-style: none;
@@ -39,13 +31,20 @@ header ul {
 	padding-bottom: 50px;
 	padding-left: 0;	
 }
-header li {
+header nav {
+	text-align: right;
 	display:inline-block;
-	margin-bottom: 0px;
-	margin-top: 0px;
-	font-size: 20px;
-	margin-right: 10px;
+	position: absolute;
 	padding: 0px;
+	width: 89%;
+}
+header{
+	background-color: lightgray;
+	padding:10px;
+	width: 100%;
+	height:40px;
+	position: fixed;
+	margin-bottom: 0px;
 }
 main {
 	margin-left:40px;
@@ -57,7 +56,6 @@ form {
 	width: 100%;
 	margin-right: 0px;
 }	
-
 label {
  	display: inline-block;
 }
@@ -77,10 +75,25 @@ img {
  	background-color:white;
  	vertical-align: bottom;
 }
-/*.pagination a
- {
-  	margin-bottom: 30px;
-}*/
+.pagination > * {
+	font-size: 16px;
+	display: inline-block;
+	height: 40px;
+	white-space: nowrap;
+	text-align: center;
+}
+.pagination-link {
+	padding: 8px 15px;
+	margin:0px;
+	color: black;
+	text-decoration: none;
+}
+.pagination span{
+	color: black;
+	border-left: 1px solid darkgray;
+	border-right: 1px solid darkgray; 
+	padding: 8px 25px;
+}
 .pagination {
 	font-size: 0;
 	margin-left: 42px;
@@ -91,44 +104,6 @@ img {
 	width:auto;
 	height: 40px;
 	padding-bottom: 1px;
-
-}
-
-.pagination > * {
-	font-size: 16px;
-	display: inline-block;
-	height: 40px;
-	/*line-height: 40px;*/
-	white-space: nowrap;
-	text-align: center;
-}
-
-.pagination-link {
-	padding: 8px 15px;
-	margin:0px;
-	color: black;
-	text-decoration: none;
-}
-
-.pagination span{
-	color: black;
-	border-left: 1px solid darkgray;
-	border-right: 1px solid darkgray; 
-	padding: 8px 25px;
-
-}
-
-
-.listings {
-	list-style: none;                                                                                                                                                          
-	padding-left: 0px;
-	margin-bottom: 5px; 
-	margin-left: 30px;
-	text-decoration: none;	
-}
-.listing {
-	color: blue;
-	font-weight: bold;
 }
 .listing-date, .listing-location {
 	color: darkgray;
@@ -139,4 +114,15 @@ img {
 }
 li {
 	padding: 10px;
+}
+.listing {
+	color: blue;
+	font-weight: bold;
+}
+.listings {
+	list-style: none;                                                                                                                                                          
+	padding-left: 0px;
+	margin-bottom: 5px; 
+	margin-left: 30px;
+	text-decoration: none;	
 }
