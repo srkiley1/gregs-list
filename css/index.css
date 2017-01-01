@@ -3,7 +3,7 @@
 }
 body {
 	margin: 0;
-	font-size: 16px;
+	font-size: 13px;
 	font-family: "Roberto", sans-serif;
 }
 h1 {
@@ -47,7 +47,8 @@ header{
 	margin-bottom: 0px;
 }
 main {
-	margin-left:40px;
+	margin-left:53px;
+	margin-bottom: 35px;
 }
 form {
 	margin-left: 40px;
@@ -63,8 +64,10 @@ label {
  	border: 1px solid gray;
  	padding: 0 5px 0 8px;
  	width: 600px;
- 	height: 35px;
+ 	height: 37px;
   	font-size: 14px;
+  	margin-top: 20px;
+  	margin-bottom: 8px;
 }
 img {
   	background-color: white;
@@ -74,6 +77,7 @@ img {
 .mag-glass {
  	background-color:white;
  	vertical-align: bottom;
+ 	margin-bottom: 9.2px;
 }
 .pagination > * {
 	font-size: 16px;
@@ -97,7 +101,8 @@ img {
 .pagination {
 	font-size: 0;
 	margin-left: 42px;
-	margin-bottom:1px;
+	margin-bottom:39px;
+	margin-top: 10px;
 	display: inline-block;
 	border: 1px solid darkgray;
 	border-radius: 5%;
@@ -107,22 +112,21 @@ img {
 }
 .listing-date, .listing-location {
 	color: darkgray;
-	font-weight: normal;
-	border-left: none;
-	border-right:none;
-	font-size: 16px;
+	font-weight: normal
 }
-li {
-	padding: 10px;
+.listing-title {
+	margin-left: 20px;
+	margin-right: 20px;
+}li {
+	padding-bottom: 21px
 }
+
 .listing {
 	color: blue;
 	font-weight: bold;
+	font-size: 18px;
 }
 .listings {
 	list-style: none;                                                                                                                                                          
-	padding-left: 0px;
-	margin-bottom: 5px; 
-	margin-left: 30px;
-	text-decoration: none;	
-}
+	text-decoration: none;
+}	
